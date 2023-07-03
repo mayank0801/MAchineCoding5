@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.recipes-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  /* flex-wrap: wrap; */
+}
+.feature-container > label {
+  display: flex;
+  flex-direction: column;
+}
